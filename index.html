@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="login">
+        
+        <table>
+            <form name="loginform">
+            <tr>
+                <th colspan="2">Login</th>
+            </tr>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" name="username" id="lusername"/></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="Login" onclick="login()"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="Registration" onclick="getReg()"></td>
+            </tr>
+        </form>
+        </table>
+
+    </section>
+
+
+    <section id="signup">
+         <table>
+             <form name="signupform">
+             <tr>
+                 <th>Registration</th>
+             </tr>
+             <tr>
+                 <td><label for="Username">Username</label></td>
+                 <td><input type="text" name="username" id="susername"></td>
+             </tr>
+             <tr>
+                 <td><label for="password">Password</label></td>
+                 <td><input type="password" name="password" id="spassword"></td>
+             </tr>
+             <tr>
+                 <td><label for="mobile">Mobile</label></td>
+                 <td><input type="tel" name="mobile" id="smobile"></td>
+             </tr>
+             <tr>
+                 <td><label for="email">Email</label></td>
+                 <td><input type="email" name="email" id="semail"></td>
+             </tr>
+             <tr>
+                 <td colspan="2" align="center"><input type="button" value="Signup" onclick="signup()"></td>
+                 
+             </tr>
+             <tr>
+                <td colspan="2" align="center"><input type="button" value="Login" onclick="getLogin()"></td>
+            </tr>
+        </form>
+         </table>
+    </section>
+
+
+
+    <section id="profile">
+
+        <table id="profiletable">
+            <tr>
+                <th>Profile</th>
+            </tr>
+        </table>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

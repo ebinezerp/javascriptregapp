@@ -1,0 +1,26 @@
+body
+{
+    display:flex;
+    justify-content: center;
+}
+
+
+#login{
+    display: block;
+    padding:5%;
+    background-color: gold;
+
+}
+
+
+#signup{
+     display: none;
+     padding:5%;
+     background-color: gold;
+}
+
+#profile{
+    display: none;
+    padding:5%;
+    background-color: gold;
+}
